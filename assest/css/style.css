@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'lalezar';
+    src: url(../font/Lalezar-Regular.ttf);
+}
+.lalezar{
+    font-family: 'lalezar';
+}
+.navbar{
+    background-color: antiquewhite;
+    padding: 30px;
+    letter-spacing: 10px;
+}
+.align-item-center{
+    align-items: center;
+}
+.intro{
+    background-color: antiquewhite;
+    color: black;
+    padding: 50px;
+}
+.desc{
+    text-align: justify;
+    padding: 20px 0;
+}
+.start-btn{
+    all: unset;
+    padding: 15px;
+    border: 0;
+    background-color: green;
+    border-radius: 10px;
+    margin-top: 15px;
+    transition: all 0.5s;
+}
+.start-btn:hover{
+    background-color: black;
+    color: antiquewhite;
+}
+a{
+    all: unset;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid white;
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+a:hover{
+    color: green;
+    background-color: white;
+}
+header{
+    border-bottom: 1px solid rgb(224, 223, 223);
+}
+
+.text-center{
+    text-align: center;
+}
+/* 
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+ */
+ .card{
+    border: 1px solid rgb(215, 213, 213);
+    border-radius: 10px;
+    overflow: hidden;
+    transform: scale(1s);
+ }
+
+ .col{
+    width: 100%;
+    padding: 0.5rem;
+ }
+
+ .card-title{
+    font-weight: bold;
+    padding: 10px 10px 40px;
+ }
+
+ .card-footer{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 10px 20px;
+ }
+ .person-card h3{
+    text-align: center;
+
+ }
+
+ .card-footer button{
+    all: unset;
+    background-color: rgb(178, 178, 250);
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 15px;
+
+ }
+
+ .person-card{
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+ }
+.person-title{
+    text-align: justify;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+ /* sidebar */
+.humberger{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: transparent;
+    border: none;
+}
+  .sidebar {
+    width: 0;
+    height: 100vh;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: width 0.5s;
+  }
+  .humberger a {
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    border-bottom: solid 1px red;
+    /* background-color: violet; */
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+  }
+  .humberger .crtbtn {
+    border: 0;
+    font-size: 20px;
+    margin: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    position: sticky;
+  }
+  .close::after {
+    content: "\002716";
+  }
+  .open::after {
+    content: "\002630";
+  }
+  .show {
+    width: 250px;
+  }
+  
+
+
+  .row-left{
+    background-color: red;
+    height: 200px;
+  }
